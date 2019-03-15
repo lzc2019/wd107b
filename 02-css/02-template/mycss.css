@@ -1,4 +1,22 @@
 button {
-    background-color: black;
-    color: white;
-}
+    background-color:#000000;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 15px;
+    margin: 8px;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  #b1 { background-color: #00ffff; }
+  #b2 { background-color: #00ffff; }
+  #b3 { background-color: #ff00ff; }
+  button.even {
+    background-color: #ffff00;
+    color: blue;
+  }
+  body{
+      background-color: #00ffff
+  }
+  tr{
+      color: darkmagenta;
+  }
