@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"> 
+<title>Design</title>
+<style>
+body 
+{
+  margin: 0px; 
+}
+.top
+{
+  	position: static;
+	background-color:#C0C0C0;
+  	border: 10px  ;
+	height:38.5px;
+	font-size:20px;
+}
+.top a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  padding: 10px;
+  border: none;
+  text-decoration: none;
+}
+.left
+{
+	position: fixed;
+	width:20px;
+	height:1000px;
+	background:	#909090;
+	overflow:hidden;
+  	margin: 0px;
+  	padding: 10px 5px;
+	transition: width 0.5s;
+}
+.left a 
+{
+  color: Black;
+  text-decoration: none;
+}
+.left li, .left ul 
+{
+  list-style-type: none;
+  margin: 5px 10px;
+  padding: 5px;
+}
+.left a:hover 
+{
+  color: Black;
+}
+
+.left:hover
+{
+	width:200px;
+}
+.dropbtn {
+    background-color: 	#808080;#FFA07A
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown 
+{
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover 
+{
+	background-color:#D0D0D0;
+}
+
+.dropdown:hover 
+.dropdown-content 
+{
+    display: block;
+}
+
+.dropdown:hover .dropbtn,.top a:hover 
+{
+    background-color: #D0D0D0;
+}
+</style>
+</head>
+<body>
+	
+<div class="dropdown" style="float:right;">
+	  <button class="dropbtn">Menu</button>
+	  <div class="dropdown-content">
+		<a href="#">link 1</a>
+		<a href="#">link 2</a>
+		<a href="#">link 3</a>
+	  </div>
+	</div>
+	
+<div class="top">
+<a href="#news">Home</a>
+<a href="#news">List</a>
+</div>
+	
+	<div class="col-6 col-m-9">
+<h1>The City</h1>
+<p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+</div>
+	
+<div class="left">
+ <ul>
+	 <li><a href="https://www.youtube.com/watch?v=e-ORhEE9VVg">the first option</a></li>
+	 <li><a href="https://www.youtube.com/watch?v=IdneKLhsWOQ">the second option</a></li>
+	 <li><a href="https://www.youtube.com/watch?v=3xmaGCcfGTI">the three option</a></li>
+	 <li><a href="https://www.youtube.com/watch?v=cMx24Vrz308">the four option</a></li>
+	 <li><a href="https://www.youtube.com/watch?v=8xg3vE8Ie_E">the five option</a></li>
+ </ul>
+</div>
+</body>
+</html>
