@@ -20,7 +20,9 @@
 ## 4. bootstrap 範例
 
 [bootstrap 範例 01-b.html ](03-bootstrap/)
+運用bootstrap所製作的個人網頁，排版，表格，下拉菜單，格式內容等
 
 ## 5. 在bootstrap中，有側欄，功能表而且能適應手機的網頁
 
 [bootstrap 側欄，功能表網頁 02.html ](03-bootstrap/)
+運用bootstrap所製作的能適應手機的網頁，可伸縮等側欄，下拉菜單，變色菜單，功能表等
